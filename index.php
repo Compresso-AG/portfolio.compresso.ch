@@ -6,127 +6,76 @@ require_once 'inc/mainmenu.php';
 <div id="letter-slider">
   <div class="swiper-container">
     <div class="swiper-wrapper">
-      <!-- a slide -->
-      <div class="swiper-slide">
-        <div class="slide-content">
-          <span class="category">Photography</span>
-          <h2 class="title">Szymon Boczek</h2>
-          <p>This is a modernistic portfolio-style theme with an emphasis on <br> typography and attention to detail.</p>
+      <?php
+      /* Slides aufbereits */
+      $slides = array(
+        array(
+          'category' => 'Webseite',
+          'title' => 'Walim',
+          'description' => 'This is a modernistic portfolio-style theme with an emphasis on <br> typography and attention to detail.',
+          'video' => false,
+          'media' => 'images/project_overview.jpg'
+        ),
+        array(
+          'category' => 'Webseite',
+          'title' => 'Monti Stampa Furrer',
+          'description' => 'This is a modernistic portfolio-style theme with an emphasis on <br> typography and attention to detail.',
+          'video' => true,
+          'media' => 'images/testvideo.mp4'
+        ),
+        array(
+          'category' => 'Webseite',
+          'title' => 'Nestlé LC1',
+          'description' => 'This is a modernistic portfolio-style theme with an emphasis on <br> typography and attention to detail.',
+          'video' => false,
+          'media' => 'images/project_overview.jpg'
+        ),
+        array(
+          'category' => 'CRM',
+          'title' => 'Japan Tobacco International​',
+          'description' => 'This is a modernistic portfolio-style theme with an emphasis on <br> typography and attention to detail.',
+          'video' => false,
+          'media' => 'images/project_overview.jpg'
+        ),
+        array(
+          'category' => 'Webseite',
+          'title' => 'Weisser Immobilien',
+          'description' => 'This is a modernistic portfolio-style theme with an emphasis on <br> typography and attention to detail.',
+          'video' => true,
+          'media' => 'images/testvideo.mp4'
+        ),
+        array(
+          'category' => 'Newsletter',
+          'title' => 'Compresso Lieblingsbrief',
+          'description' => 'This is a modernistic portfolio-style theme with an emphasis on <br> typography and attention to detail.',
+          'video' => false,
+          'media' => 'images/project_overview.jpg'
+        ),
+        array(
+          'category' => 'Newsletter',
+          'title' => 'Nestlé Hirz Regio Thaler',
+          'description' => 'This is a modernistic portfolio-style theme with an emphasis on <br> typography and attention to detail.',
+          'video' => false,
+          'media' => 'images/project_overview.jpg'
+        )
+      );
+      foreach( $slides as $slide ) {
+        ?>
+        <!-- slide -->
+        <div class="swiper-slide">
+          <div class="slide-content">
+            <span class="category"><?php echo $slide['category']; ?></span>
+            <h2 class="title"><?php echo $slide['title']; ?></h2>
+            <p><?php echo $slide['description']; ?></p>
+          </div>
+          <a href="#" data-type="ajax-load" class="slide-arrow magnetize" >
+            <div class="circle" data-cursor-type="medium"></div><i class="fas fa-chevron-right"></i>
+            <div class="spine" data-cursor-type="medium"></div>
+          </a>
         </div>
-        <a href="work-1.html" data-type="ajax-load" class="slide-arrow magnetize" >
-          <div class="circle" data-cursor-type="medium"></div><i class="fas fa-chevron-right"></i>
-          <div class="spine" data-cursor-type="medium"></div>
-        </a>
-      </div>
-      <!-- a slide -->
-      <div class="swiper-slide">
-        <div class="slide-content">
-          <span class="category">Digital</span>
-          <h2 class="title">Behind the Scenes</h2>
-          <p>Improve ashamed married expense bed her comfort pursuit mrs. Four <br> time took ye your as fail lady.</p>
-        </div>
-        <a href="work-2.html" data-type="ajax-load" class="slide-arrow magnetize">
-          <div class="circle" data-cursor-type="medium"></div><i class="fas fa-chevron-right"></i>
-          <div class="spine" data-cursor-type="medium"></div>
-        </a>
-      </div>
-      <!-- a slide -->
-      <div class="swiper-slide">
-        <div class="slide-content">
-          <span class="category">Photography</span>
-          <h2 class="title">The Lion King</h2>
-          <p>You disposal strongly quitting his endeavor two settling him. Manners <br> ham him hearted hundred expense. </p>
-        </div>
-        <a href="work-3.html" data-type="ajax-load" class="slide-arrow magnetize">
-          <div class="circle" data-cursor-type="medium"></div><i class="fas fa-chevron-right"></i>
-          <div class="spine" data-cursor-type="medium"></div>
-        </a>
-      </div>
-      <!-- a slide -->
-      <div class="swiper-slide">
-        <div class="slide-content">
-          <span class="category">Photography</span>
-          <h2 class="title">Daniel Bedoya</h2>
-          <p>Get open game him what hour more part. Adapted as smiling of <br> females oh me journey exposed concern.</p>
-        </div>
-        <a href="work-4.html" data-type="ajax-load" class="slide-arrow magnetize">
-          <div class="circle" data-cursor-type="medium"></div><i class="fas fa-chevron-right"></i>
-          <div class="spine" data-cursor-type="medium"></div>
-        </a>
-      </div>
-      <!-- a slide -->
-      <div class="swiper-slide">
-        <div class="slide-content">
-          <span class="category">Photography</span>
-          <h2 class="title">Sands Brunswick</h2>
-          <p>This is a modernistic portfolio-style theme with an emphasis on <br> typography and attention to detail.</p>
-        </div>
-        <a href="work-5.html" data-type="ajax-load" class="slide-arrow magnetize">
-          <div class="circle" data-cursor-type="medium"></div><i class="fas fa-chevron-right"></i>
-          <div class="spine" data-cursor-type="medium"></div>
-        </a>
-      </div>
-      <!-- a slide -->
-      <div class="swiper-slide">
-        <div class="slide-content">
-          <span class="category">Photography</span>
-          <h2 class="title">Apartments In Sardinia</h2>
-          <p>This is a modernistic portfolio-style theme with an emphasis on typography and attention to detail.</p>
-        </div>
-        <a href="work-6.html" data-type="ajax-load" class="slide-arrow magnetize">
-          <div class="circle" data-cursor-type="medium"></div><i class="fas fa-chevron-right"></i>
-          <div class="spine" data-cursor-type="medium"></div>
-        </a>
-      </div>
-      <!-- a slide -->
-      <div class="swiper-slide">
-        <div class="slide-content">
-          <span class="category">Photography</span>
-          <h2 class="title">Moody</h2>
-          <p>This is a modernistic portfolio-style theme with an emphasis on <br> typography and attention to detail.</p>
-        </div>
-        <a href="work-7.html" data-type="ajax-load" class="slide-arrow magnetize">
-          <div class="circle" data-cursor-type="medium"></div><i class="fas fa-chevron-right"></i>
-          <div class="spine" data-cursor-type="medium"></div>
-        </a>
-      </div>
-      <!-- a slide -->
-      <div class="swiper-slide">
-        <div class="slide-content">
-          <span class="category">Photography</span>
-          <h2 class="title">Hand Shake</h2>
-          <p>This is a modernistic portfolio-style theme with an emphasis on <br> typography and attention to detail.</p>
-        </div>
-        <a href="work-8.html" data-type="ajax-load" class="slide-arrow magnetize">
-          <div class="circle" data-cursor-type="medium"></div><i class="fas fa-chevron-right"></i>
-          <div class="spine" data-cursor-type="medium"></div>
-        </a>
-      </div>
-      <!-- a slide -->
-      <div class="swiper-slide">
-        <div class="slide-content">
-          <span class="category">Photography</span>
-          <h2 class="title">Ferrera Dose</h2>
-          <p>This is a modernistic portfolio-style theme with an emphasis on <br> typography and attention to detail.</p>
-        </div>
-        <a href="work-9.html" data-type="ajax-load" class="slide-arrow magnetize">
-          <div class="circle" data-cursor-type="medium"></div><i class="fas fa-chevron-right"></i>
-          <div class="spine" data-cursor-type="medium"></div>
-        </a>
-      </div>
-      <!-- a slide -->
-      <div class="swiper-slide">
-        <div class="slide-content">
-          <span class="category">Photography</span>
-          <h2 class="title">Menaud</h2>
-          <p>This is a modernistic portfolio-style theme with an emphasis on <br> typography and attention to detail.</p>
-        </div>
-        <a href="work-10.html" data-type="ajax-load" class="slide-arrow magnetize">
-          <div class="circle" data-cursor-type="medium"></div><i class="fas fa-chevron-right"></i>
-          <div class="spine" data-cursor-type="medium"></div>
-        </a>
-      </div>
-
+        <?php
+      }
+      ?>
     </div>
 
     <div class="bullets">
@@ -136,32 +85,23 @@ require_once 'inc/mainmenu.php';
     <!-- SLIDE IMAGES -->
     <div class="slider-images overlays">
       <ul>
-        <!-- a slide image -->
-        <li style="background-image: url(images/portfolio/work-1/01.jpg);"></li>
-        <!-- a slide video -->
-        <li style="background-image: url(images/portfolio/work-2/01.png);">
-          <div class="video-wrapper">
-            <video loop muted playsinline class="video-bg">
-              <source src="images/portfolio/work-2/play.mp4" type="video/mp4">
-            </video>
-          </div>
-        </li>
-        <!-- a slide image -->
-        <li style="background-image: url(images/portfolio/work-3/01.jpg);"></li>
-        <!-- a slide image -->
-        <li style="background-image: url(images/portfolio/work-4/03.jpg);"></li>
-        <!-- a slide image -->
-        <li style="background-image: url(images/portfolio/work-5/01.jpg);"></li>
-        <!-- a slide image -->
-        <li style="background-image: url(images/portfolio/work-6/02.jpg);"></li>
-        <!-- a slide image -->
-        <li style="background-image: url(images/portfolio/work-7/01.jpg);"></li>
-        <!-- a slide image -->
-        <li style="background-image: url(images/portfolio/work-8/01.jpg);"></li>
-        <!-- a slide image -->
-        <li style="background-image: url(images/portfolio/work-9/01.jpg);"></li>
-        <!-- a slide image -->
-        <li style="background-image: url(images/portfolio/work-10/03.jpg);"></li>
+        <?php
+        foreach( $slides as $slide ) {
+          if( !$slide['video'] ) {
+            echo '<li style="background-image: url(' . $slide['media'] . ');"></li>';
+          } else {
+            ?>
+            <li>
+              <div class="video-wrapper">
+                <video loop muted playsinline class="video-bg">
+                  <source src="<?php echo $slide['media']; ?>" type="video/mp4">
+                </video>
+              </div>
+            </li>
+            <?php
+          }
+        }
+        ?>
       </ul>
     </div>
   </div>

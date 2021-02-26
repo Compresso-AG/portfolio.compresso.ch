@@ -3,13 +3,6 @@
 /*---------------------------------- */
 
 
-@import url("reset.css");
-@import url("assets.css");
-@import url("margins.css");
-@import url("header.css");
-@import url("showcase.css");
-
-
 body{
     font-family: sofia-pro, sans-serif;
     background: #fff;

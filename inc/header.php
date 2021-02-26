@@ -8,8 +8,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/customs.css" />
+  <link rel="stylesheet" href="css/reset.min.css" />
+  <link rel="stylesheet" href="css/assets.min.css" />
+  <link rel="stylesheet" href="css/margins.min.css" />
+  <link rel="stylesheet" href="css/header.css" />
+  <link rel="stylesheet" href="css/showcase.min.css" />
+  <link rel="stylesheet" href="css/style.min.css" />
+  <link rel="stylesheet" href="css/customs.css?ver=1" />
 
   <!--[if lt IE 9]>
   	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -17,7 +22,7 @@
   	<![endif]-->
 
   <!-- FAVICON  -->
-  <link rel="shortcut icon" href="images/favicon.png"
+  <link rel="shortcut icon" href="images/favicon.png">
 
   <!-- Font icons -->
   <link rel="stylesheet" href="icon-fonts/fontawesome-5.12.0/css/all.min.css" />

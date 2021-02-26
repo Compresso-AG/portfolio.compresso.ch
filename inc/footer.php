@@ -2,7 +2,7 @@
   <div class="showcase-bottom">
     <div class="row">
         <div class="col-xl-6 col-md-6 text-left">
-          <a data-cursor-type="medium" class="allworks-link magnetize" href="contact.html" data-type="ajax-load" data-dist="1">Contact us</a>
+          <a data-cursor-type="medium" class="allworks-link magnetize" href="contact.php" data-type="ajax-load" data-dist="1">Contact us</a>
         </div>
         <div class="col-xl-6 col-md-6">
           <div class="sliding-social">
@@ -20,7 +20,7 @@
   <!-- Javascripts -->
   <script src="js/jquery.js"></script>
   <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/main.min.js"></script>
 </body>
 
 </html>
