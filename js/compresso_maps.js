@@ -161,9 +161,3 @@ function centerMap( map ) {
       map.fitBounds( bounds );
   }
 }
-
-$(document).ready(function(){
-  $('.compresso_map').each(function(){
-      var map = initMap( $(this) );
-  });
-});

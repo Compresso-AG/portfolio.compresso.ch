@@ -11,49 +11,63 @@ require_once 'inc/mainmenu.php';
       $slides = array(
         array(
           'category' => 'Webseite',
-          'title' => 'Walim',
+          'title' => 'C Walim',
           'description' => 'This is a modernistic portfolio-style theme with an emphasis on <br> typography and attention to detail.',
           'video' => false,
           'media' => 'images/project_overview.jpg'
         ),
         array(
           'category' => 'Webseite',
-          'title' => 'Monti Stampa Furrer',
+          'title' => 'O Monti Stampa Furrer',
           'description' => 'This is a modernistic portfolio-style theme with an emphasis on <br> typography and attention to detail.',
           'video' => true,
           'media' => 'images/testvideo.mp4'
         ),
         array(
           'category' => 'Webseite',
-          'title' => 'Nestlé LC1',
+          'title' => 'M Nestlé LC1',
           'description' => 'This is a modernistic portfolio-style theme with an emphasis on <br> typography and attention to detail.',
           'video' => false,
           'media' => 'images/project_overview.jpg'
         ),
         array(
           'category' => 'CRM',
-          'title' => 'Japan Tobacco International​',
+          'title' => 'P Japan Tobacco International​',
           'description' => 'This is a modernistic portfolio-style theme with an emphasis on <br> typography and attention to detail.',
           'video' => false,
           'media' => 'images/project_overview.jpg'
         ),
         array(
           'category' => 'Webseite',
-          'title' => 'Weisser Immobilien',
+          'title' => 'R Weisser Immobilien',
+          'description' => 'This is a modernistic portfolio-style theme with an emphasis on <br> typography and attention to detail.',
+          'video' => true,
+          'media' => 'images/testvideo.mp4'
+        ),
+        array(
+          'category' => 'Webseite',
+          'title' => 'E Weisser Immobilien',
           'description' => 'This is a modernistic portfolio-style theme with an emphasis on <br> typography and attention to detail.',
           'video' => true,
           'media' => 'images/testvideo.mp4'
         ),
         array(
           'category' => 'Newsletter',
-          'title' => 'Compresso Lieblingsbrief',
+          'title' => 'S Compresso Lieblingsbrief',
           'description' => 'This is a modernistic portfolio-style theme with an emphasis on <br> typography and attention to detail.',
           'video' => false,
           'media' => 'images/project_overview.jpg'
         ),
         array(
           'category' => 'Newsletter',
-          'title' => 'Nestlé Hirz Regio Thaler',
+          'title' => 'S Nestlé Hirz Regio Thaler',
+          'description' => 'This is a modernistic portfolio-style theme with an emphasis on <br> typography and attention to detail.',
+          'video' => false,
+          'media' => 'images/project_overview.jpg'
+        ),
+        array(
+          'category' => 'Newsletter',
+          'title' => 'O Nestlé Hirz Regio Thaler',
           'description' => 'This is a modernistic portfolio-style theme with an emphasis on <br> typography and attention to detail.',
           'video' => false,
           'media' => 'images/project_overview.jpg'
@@ -106,5 +120,24 @@ require_once 'inc/mainmenu.php';
     </div>
   </div>
 </div>
+<!-- SHOWCASE BOTTOM -->
+<div class="showcase-bottom">
+  <div class="row">
+      <div class="col-xl-6 col-md-6 text-left">
+        <a data-cursor-type="medium" class="allworks-link magnetize" href="contact.php" data-type="ajax-load" data-dist="1">Contact us</a>
+      </div>
+      <div class="col-xl-6 col-md-6">
+        <div class="sliding-social">
+          <div class="follow-us">Follow us <i class="fas fa-heart text-danger"></i></div>
+            <ul class="social">
+              <li class="magnetize" data-dist="1"><a data-cursor-type="medium" href="https://www.facebook.com/compresso" target="_blank"><i class="fab fa-facebook fa-2x"></i></a></li>
+              <li class="magnetize" data-dist="1"><a data-cursor-type="medium" href="https://www.instagram.com/compressozurich/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a></li>
+              <li class="magnetize" data-dist="1"><a data-cursor-type="medium" href="https://www.linkedin.com/company/compresso-ag/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></li>
+            </ul>
+        </div>
+      </div>
+  </div>
+</div>
+</main>
 <?php
 require_once 'inc/footer.php';
