@@ -60,17 +60,17 @@ require_once 'inc/mainmenu.php';
         ),
         array(
           'category' => 'Newsletter',
-          'title' => 'S Nestlé Hirz Regio Thaler',
+          'title' => 'Sag uns hallo!',
           'description' => 'This is a modernistic portfolio-style theme with an emphasis on <br> typography and attention to detail.',
           'video' => false,
           'media' => 'images/project_overview.jpg'
         ),
         array(
-          'category' => 'Newsletter',
-          'title' => 'O Nestlé Hirz Regio Thaler',
-          'description' => 'This is a modernistic portfolio-style theme with an emphasis on <br> typography and attention to detail.',
+          'category' => 'Über unsere Agentur',
+          'title' => 'Oh? Du willst mehr über uns erfahren?',
+          'description' => 'Wir machen Kommunikation und sind die Lieblingsagentur vieler spannender kleiner und ganz grosser Kunden aus der ganzen Schweiz. Folge dem Link auf unsere Agenturwebseite.',
           'video' => false,
-          'media' => 'images/project_overview.jpg'
+          'media' => 'images/agenturhaus.jpg'
         )
       );
       foreach( $slides as $slide ) {
