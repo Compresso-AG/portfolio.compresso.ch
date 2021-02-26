@@ -13,8 +13,7 @@ require_once 'inc/mainmenu.php';
 
     <div class="container text-center top_60 box-animate">
       <div class="subtext">
-        <h2>Like what you see? Have a project you’d like to talk about? <br />
-          Want to ask us a personal question?</h2>
+        <h2>Dürfen wir sie bei Ihren online Projekten unterstützen oder könnte eine unserer anderen Bereiche bei einem Projekt weiterhelfen? Dann melden Sie sich bei uns ganz unverbindlich, wir freuen uns auf Sie!</h2>
       </div>
     </div>
 
@@ -79,30 +78,6 @@ require_once 'inc/mainmenu.php';
         });
       });
     </script>
-    <!-- BG SIGNATURE FONT -->
-    <div class="fixed-signature" data-scroll data-scroll-sticky data-scroll-target="main">Wir sind Compresso</div>
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-6 footer-info">
-            <p>Folge uns auf <a href="https://www.facebook.com/compresso"
-                data-cursor-type="medium" target="_blank">Facebook</a>, <a href="https://www.instagram.com/compressozurich/" data-cursor-type="medium" target="_blank">Instagram</a> & <a href="https://www.linkedin.com/company/compresso-ag/"
-                data-cursor-type="medium" target="_blank">LinkedIn</a>,
-              or say “hello” at <a data-cursor-type="medium" class="email"
-                href="mailto:info@compresso.ch">info@compresso.ch</a></p>
-            <div class="copyright">
-              <p><i class="far fa-copyright"></i> Compresso AG</p>
-            </div>
-          </div>
-          <div class="col-xl-6 text-right">
-            <div class="uptotop" data-cursor-type="medium">Nach oben<i class="fas fa-angle-up"></i></div>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-
-    </div>
-  </main>
 <?php
+include_once 'inc/site_footer.php';
 include_once 'inc/footer.php';

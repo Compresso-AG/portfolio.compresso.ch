@@ -13,17 +13,17 @@ require_once 'inc/mainmenu.php';
           'category' => 'Webseite',
           'title' => 'Personal Trainer ade, dank Sportaktiv',
           'description' => 'Wie bringt man verschiedene Sportarten und Interessengruppe unter einen Hut?',
-          'video' => false,
-          'media' => 'images/project_overview.jpg',
+          'video' => true,
+          'media' => 'images/sportaktiv.mp4',
           'link' => 'sportaktiv.php',
-          'link_target' => '_self'
+          'link_target' => '_self',
         ),
         array(
           'category' => 'Webseite',
           'title' => 'Rundum stimmig mit LC1',
           'description' => 'Warum harmonieren alte Klassiker und innovative Neulinge im Web besonders gut?',
           'video' => true,
-          'media' => 'images/testvideo.mp4',
+          'media' => 'images/lc1.mp4',
           'link' => '',
           'link_target' => '_self'
         ),
@@ -31,8 +31,8 @@ require_once 'inc/mainmenu.php';
           'category' => 'Webseite',
           'title' => 'Objekte online inserieren für Walim',
           'description' => 'Wer bringt Branding und Funktionalität auf einer Plattform zusammen?',
-          'video' => false,
-          'media' => 'images/project_overview.jpg',
+          'video' => true,
+          'media' => 'images/walim.mp4',
           'link' => '',
           'link_target' => '_self'
         ),
@@ -109,20 +109,27 @@ require_once 'inc/mainmenu.php';
     <div class="slider-images overlays">
       <ul>
         <?php
+        $counter = 1;
         foreach( $slides as $slide ) {
           if( !$slide['video'] ) {
             echo '<li style="background-image: url(' . $slide['media'] . ');"></li>';
           } else {
+            $add_autoplay = '';
+            if($counter = 1) {
+              /* Autoplay hinzufügen */
+              $add_autoplay = ' autoplay';
+            }
             ?>
             <li>
               <div class="video-wrapper">
-                <video loop muted playsinline class="video-bg">
+                <video loop muted playsinline<?php echo $add_autoplay; ?> class="video-bg">
                   <source src="<?php echo $slide['media']; ?>" type="video/mp4">
                 </video>
               </div>
             </li>
             <?php
           }
+          $counter++;
         }
         ?>
       </ul>
