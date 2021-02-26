@@ -11,64 +11,57 @@ require_once 'inc/mainmenu.php';
       $slides = array(
         array(
           'category' => 'Webseite',
-          'title' => 'C Walim',
-          'description' => 'This is a modernistic portfolio-style theme with an emphasis on <br> typography and attention to detail.',
+          'title' => 'Personal Trainer ade, dank Sportaktiv',
+          'description' => 'Wie bringt man verschiedene Sportarten und Interessengruppe unter einen Hut?',
           'video' => false,
           'media' => 'images/project_overview.jpg'
         ),
         array(
           'category' => 'Webseite',
-          'title' => 'O Monti Stampa Furrer',
-          'description' => 'This is a modernistic portfolio-style theme with an emphasis on <br> typography and attention to detail.',
+          'title' => 'Rundum stimmig mit LC1',
+          'description' => 'Warum harmonieren alte Klassiker und innovative Neulinge im Web besonders gut?',
           'video' => true,
           'media' => 'images/testvideo.mp4'
         ),
         array(
           'category' => 'Webseite',
-          'title' => 'M Nestlé LC1',
-          'description' => 'This is a modernistic portfolio-style theme with an emphasis on <br> typography and attention to detail.',
+          'title' => 'Objekte online inserieren für Walim',
+          'description' => 'Wer bringt Branding und Funktionalität auf einer Plattform zusammen?',
           'video' => false,
           'media' => 'images/project_overview.jpg'
         ),
         array(
           'category' => 'CRM',
-          'title' => 'P Japan Tobacco International​',
-          'description' => 'This is a modernistic portfolio-style theme with an emphasis on <br> typography and attention to detail.',
+          'title' => 'Japan-Reise mit JT International',
+          'description' => 'Was braucht es, um das Zahlenchaos übersichtlich zu digitalisieren?',
           'video' => false,
           'media' => 'images/project_overview.jpg'
         ),
         array(
           'category' => 'Webseite',
-          'title' => 'R Weisser Immobilien',
-          'description' => 'This is a modernistic portfolio-style theme with an emphasis on <br> typography and attention to detail.',
+          'title' => 'Ein hoch auf Gamification mit Valora',
+          'description' => 'Wo treffen off- und online Kampagnen spielerisch aufeinander?',
           'video' => true,
           'media' => 'images/testvideo.mp4'
         ),
         array(
           'category' => 'Webseite',
-          'title' => 'E Weisser Immobilien',
-          'description' => 'This is a modernistic portfolio-style theme with an emphasis on <br> typography and attention to detail.',
+          'title' => 'Computer als Sprachrohr für Weisser Immobilien',
+          'description' => 'Wie erschaffen wir einen ästhetischen und informativen Webauftritt?',
           'video' => true,
           'media' => 'images/testvideo.mp4'
         ),
         array(
           'category' => 'Newsletter',
-          'title' => 'S Compresso Lieblingsbrief',
-          'description' => 'This is a modernistic portfolio-style theme with an emphasis on <br> typography and attention to detail.',
+          'title' => 'The news online dank Newsletter',
+          'description' => 'Warum wecken spannende Inhalte mit durchdachter Aufbereitung Interesse?',
           'video' => false,
           'media' => 'images/project_overview.jpg'
         ),
         array(
-          'category' => 'Newsletter',
-          'title' => 'Sag uns hallo!',
-          'description' => 'This is a modernistic portfolio-style theme with an emphasis on <br> typography and attention to detail.',
-          'video' => false,
-          'media' => 'images/project_overview.jpg'
-        ),
-        array(
-          'category' => 'Über unsere Agentur',
-          'title' => 'Oh? Du willst mehr über uns erfahren?',
-          'description' => 'Wir machen Kommunikation und sind die Lieblingsagentur vieler spannender kleiner und ganz grosser Kunden aus der ganzen Schweiz. Folge dem Link auf unsere Agenturwebseite.',
+          'category' => 'Compresso - Deine Lieblingsagentur',
+          'title' => 'So, Interesse geweckt?',
+          'description' => 'Wir machen Kommunikation und sind die Lieblingsagentur vieler spannender kleiner und ganz grosser Kunden aus der gesamten Schweiz. Tritt mit uns in Kontakt!',
           'video' => false,
           'media' => 'images/agenturhaus.jpg'
         )

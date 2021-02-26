@@ -42,7 +42,7 @@
 
   <div id="loader" class="preloader">
     <span class="loading">
-      <span class="txt">Laden...</span>
+      <span class="txt">Loading</span>
       <span class="progress">
         <span class="bar-loading"></span>
       </span>
