@@ -14,56 +14,72 @@ require_once 'inc/mainmenu.php';
           'title' => 'Personal Trainer ade, dank Sportaktiv',
           'description' => 'Wie bringt man verschiedene Sportarten und Interessengruppe unter einen Hut?',
           'video' => false,
-          'media' => 'images/project_overview.jpg'
+          'media' => 'images/project_overview.jpg',
+          'link' => 'sportaktiv.php',
+          'link_target' => '_self'
         ),
         array(
           'category' => 'Webseite',
           'title' => 'Rundum stimmig mit LC1',
           'description' => 'Warum harmonieren alte Klassiker und innovative Neulinge im Web besonders gut?',
           'video' => true,
-          'media' => 'images/testvideo.mp4'
+          'media' => 'images/testvideo.mp4',
+          'link' => '',
+          'link_target' => '_self'
         ),
         array(
           'category' => 'Webseite',
           'title' => 'Objekte online inserieren für Walim',
           'description' => 'Wer bringt Branding und Funktionalität auf einer Plattform zusammen?',
           'video' => false,
-          'media' => 'images/project_overview.jpg'
+          'media' => 'images/project_overview.jpg',
+          'link' => '',
+          'link_target' => '_self'
         ),
         array(
           'category' => 'CRM',
           'title' => 'Japan-Reise mit JT International',
           'description' => 'Was braucht es, um das Zahlenchaos übersichtlich zu digitalisieren?',
           'video' => false,
-          'media' => 'images/project_overview.jpg'
+          'media' => 'images/project_overview.jpg',
+          'link' => '',
+          'link_target' => '_self'
         ),
         array(
           'category' => 'Webseite',
           'title' => 'Ein hoch auf Gamification mit Valora',
           'description' => 'Wo treffen off- und online Kampagnen spielerisch aufeinander?',
           'video' => true,
-          'media' => 'images/testvideo.mp4'
+          'media' => 'images/testvideo.mp4',
+          'link' => '',
+          'link_target' => '_self'
         ),
         array(
           'category' => 'Webseite',
           'title' => 'Computer als Sprachrohr für Weisser Immobilien',
           'description' => 'Wie erschaffen wir einen ästhetischen und informativen Webauftritt?',
           'video' => true,
-          'media' => 'images/testvideo.mp4'
+          'media' => 'images/testvideo.mp4',
+          'link' => '',
+          'link_target' => '_self'
         ),
         array(
           'category' => 'Newsletter',
           'title' => 'The news online dank Newsletter',
           'description' => 'Warum wecken spannende Inhalte mit durchdachter Aufbereitung Interesse?',
           'video' => false,
-          'media' => 'images/project_overview.jpg'
+          'media' => 'images/project_overview.jpg',
+          'link' => '',
+          'link_target' => '_self'
         ),
         array(
           'category' => 'Compresso - Deine Lieblingsagentur',
           'title' => 'So, Interesse geweckt?',
           'description' => 'Wir machen Kommunikation und sind die Lieblingsagentur vieler spannender kleiner und ganz grosser Kunden aus der gesamten Schweiz. Tritt mit uns in Kontakt!',
           'video' => false,
-          'media' => 'images/agenturhaus.jpg'
+          'media' => 'images/agenturhaus.jpg',
+          'link' => '',
+          'link_target' => '_self'
         )
       );
       foreach( $slides as $slide ) {
@@ -75,7 +91,7 @@ require_once 'inc/mainmenu.php';
             <h2 class="title"><?php echo $slide['title']; ?></h2>
             <p><?php echo $slide['description']; ?></p>
           </div>
-          <a href="#" data-type="ajax-load" class="slide-arrow magnetize" >
+          <a href="<?php echo $slide['link']; ?>" target="<?php echo $slide['link_target']; ?>" data-type="ajax-load" class="slide-arrow magnetize">
             <div class="circle" data-cursor-type="medium"></div><i class="fas fa-chevron-right"></i>
             <div class="spine" data-cursor-type="medium"></div>
           </a>
