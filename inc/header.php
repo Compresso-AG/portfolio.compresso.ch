@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="css/header.css" />
   <link rel="stylesheet" href="css/showcase.min.css" />
   <link rel="stylesheet" href="css/style.min.css" />
-  <link rel="stylesheet" href="css/customs.css?ver=3" />
+  <link rel="stylesheet" href="css/customs.css?ver=4" />
 
   <!-- Scripts -->
   <script src="js/jquery.js"></script>

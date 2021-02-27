@@ -16,6 +16,10 @@
   filter: brightness(50%);
 }
 
+.showcase .slider-images ul li {
+  filter: brightness(50%);
+}
+
 @media only screen and (max-width: 991px) {
   .video-wrapper {
     display: block;
