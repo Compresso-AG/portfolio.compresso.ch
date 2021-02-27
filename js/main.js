@@ -756,7 +756,8 @@ function lightbox() {
       });
     });
 
-    $('.down-link').on('click', function(){
+    $('.down-link').on('click', function(event){
+      event.preventDefault();
       $('html, body').animate({
         'scrollTop': $(window).height()
       },1000);
