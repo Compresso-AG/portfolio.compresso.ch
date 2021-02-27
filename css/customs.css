@@ -12,12 +12,26 @@
   max-width: inherit !important;
 }
 
-.teammates .team .image {
+.teammates .team .image,
+.showcase .slider-images ul li {
   filter: brightness(50%);
 }
 
-.showcase .slider-images ul li {
-  filter: brightness(50%);
+.down-link,
+.down-link.no-border {
+  bottom: unset;
+  top: 90px;
+}
+
+@media only screen and (min-width: 580px) {
+  .showcase .swiper-slide {
+    align-items: end;
+  }
+  
+  .showcase .swiper-slide .slide-content,
+  .slide-arrow {
+    margin-bottom: 6%;
+  }
 }
 
 @media only screen and (max-width: 991px) {
