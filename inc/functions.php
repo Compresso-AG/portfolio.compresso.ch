@@ -54,3 +54,18 @@ function render_next_project( $project, $link ) {
     </div>
   ';
 }
+
+function render_external_project_link( $project, $link, $title ) {
+  echo '
+  <!-- Next post link -->
+   <div class="container text-center top_60 box-animate">
+    <div class="row top_30">
+      <div class="col-xl-12">
+        <a target="_blank" data-cursor-type="medium" class="next-link" href="' . $link . '">
+          <div data-cursor-type="medium" class="nav-title">' . $title . '</div>
+          <div data-cursor-type="medium" class="next-title">' . $project . '</div>
+        </a>
+      </div>
+    </div>
+  ';
+}

@@ -69,7 +69,7 @@ require_once 'inc/mainmenu.php';
           'description' => 'Warum wecken spannende Inhalte mit durchdachter Aufbereitung Interesse?',
           'video' => false,
           'media' => 'images/project_overview.jpg',
-          'link' => '',
+          'link' => 'newsletter.php',
           'link_target' => '_self'
         ),
         array(
