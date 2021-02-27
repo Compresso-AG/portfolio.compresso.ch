@@ -42,7 +42,7 @@ require_once 'inc/mainmenu.php';
           'description' => 'Was braucht es, um das Zahlenchaos übersichtlich zu digitalisieren?',
           'video' => false,
           'media' => 'images/project_overview.jpg',
-          'link' => '',
+          'link' => 'jti.php',
           'link_target' => '_self'
         ),
         array(
