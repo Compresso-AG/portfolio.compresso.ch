@@ -24,7 +24,7 @@ require_once 'inc/mainmenu.php';
           'description' => 'Warum harmonieren alte Klassiker und innovative Neulinge im Web besonders gut?',
           'video' => true,
           'media' => 'images/lc1.mp4',
-          'link' => '',
+          'link' => 'lc1.php',
           'link_target' => '_self'
         ),
         array(
@@ -78,8 +78,8 @@ require_once 'inc/mainmenu.php';
           'description' => 'Wir machen Kommunikation und sind die Lieblingsagentur vieler spannender kleiner und ganz grosser Kunden aus der gesamten Schweiz. Tritt mit uns in Kontakt!',
           'video' => false,
           'media' => 'images/agenturhaus.jpg',
-          'link' => '',
-          'link_target' => '_self'
+          'link' => 'https://compresso.ch',
+          'link_target' => '_blank'
         )
       );
       foreach( $slides as $slide ) {
