@@ -15,3 +15,9 @@
 .teammates .team .image {
   filter: brightness(50%);
 }
+
+@media only screen and (max-width: 991px) {
+  .video-wrapper {
+    display: block;
+  }
+}
