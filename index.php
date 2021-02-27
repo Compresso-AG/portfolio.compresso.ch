@@ -85,6 +85,11 @@ require_once 'inc/mainmenu.php';
         )
       );
       foreach( $slides as $slide ) {
+        if( $slide['link_target'] === '_self' ) {
+          $data_type = 'ajax-load';
+        } else {
+          $data_type = '';
+        }
         ?>
         <!-- slide -->
         <div class="swiper-slide">
@@ -93,7 +98,7 @@ require_once 'inc/mainmenu.php';
             <h2 class="title"><?php echo $slide['title']; ?></h2>
             <p><?php echo $slide['description']; ?></p>
           </div>
-          <a href="<?php echo $slide['link']; ?>" target="<?php echo $slide['link_target']; ?>" data-type="ajax-load" class="slide-arrow magnetize">
+          <a href="<?php echo $slide['link']; ?>" target="<?php echo $slide['link_target']; ?>" data-type="<?php echo $data_type; ?>" class="slide-arrow magnetize">
             <div class="circle" data-cursor-type="medium"></div><i class="fas fa-chevron-right"></i>
             <div class="spine" data-cursor-type="medium"></div>
           </a>
