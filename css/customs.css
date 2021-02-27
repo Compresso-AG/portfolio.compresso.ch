@@ -11,3 +11,7 @@
 .compresso_map img {
   max-width: inherit !important;
 }
+
+.teammates .team .image {
+  filter: brightness(50%);
+}
