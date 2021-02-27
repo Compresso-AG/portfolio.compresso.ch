@@ -68,11 +68,11 @@
     <img class="dark-logo" data-dist="4" data-cursor-type="medium" data-cursor-text="" src="images/compresso_logo.svg" alt="">
   </a>
 
-    <div class="nav-icon magnetize" data-dist="3" data-cursor-type="medium">
-      <div class="nav-icon-inner" data-cursor-type="medium">
-        <span></span>
-        <span></span>
-      </div>
+  <div class="nav-icon magnetize" data-dist="3" data-cursor-type="medium">
+    <div class="nav-icon-inner" data-cursor-type="medium">
+      <span></span>
+      <span></span>
     </div>
-    </div>
+  </div>
+  </div>
   </header>
