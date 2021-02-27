@@ -33,7 +33,7 @@ require_once 'inc/mainmenu.php';
           'description' => 'Wer bringt Branding und Funktionalität auf einer Plattform zusammen?',
           'video' => true,
           'media' => 'images/walim.mp4',
-          'link' => '',
+          'link' => 'walim.php',
           'link_target' => '_self'
         ),
         array(
