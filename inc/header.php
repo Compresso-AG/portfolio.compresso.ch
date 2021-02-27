@@ -28,7 +28,7 @@
   <link rel="shortcut icon" href="images/favicon.png">
 
   <!-- Font icons -->
-  <link rel="stylesheet" href="icon-fonts/fontawesome-5.12.0/css/all.min.css" />
+  <script data-search-pseudo-elements src="https://kit.fontawesome.com/4f623df54f.js" crossorigin="anonymous"></script>
 
 
 

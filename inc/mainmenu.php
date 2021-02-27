@@ -16,7 +16,7 @@
         <ul>
           <li class="menu-text">Menu</li>
           <li><a data-type="ajax-load" data-cursor-type="medium" href="index.php">Home</a></li>
-          <li><a data-cursor-type="medium" href="about-studio.html">About</a></li>
+          <li><a data-cursor-type="medium" href="about.php">About</a></li>
           <li><a data-type="ajax-load" data-cursor-type="medium" href="contact.php">Contact</a></li>
         </ul>
       </nav>
