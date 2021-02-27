@@ -42,6 +42,7 @@
 
   <div id="loader" class="preloader">
     <span class="loading">
+      <span class="logo bottom_45"><img src="images/compresso_logo.svg" alt=""></span>
       <span class="txt">Loading</span>
       <span class="progress">
         <span class="bar-loading"></span>
