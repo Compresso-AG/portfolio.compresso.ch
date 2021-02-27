@@ -1,4 +1,5 @@
 <?php
+require_once 'vendor/autoload.php';
 require_once 'inc/header.php';
 require_once 'inc/mainmenu.php';
 ?>
@@ -76,8 +77,9 @@ require_once 'inc/mainmenu.php';
           'category' => 'Compresso - Deine Lieblingsagentur',
           'title' => 'So, Interesse geweckt?',
           'description' => 'Wir machen Kommunikation und sind die Lieblingsagentur vieler spannender kleiner und ganz grosser Kunden aus der gesamten Schweiz. Tritt mit uns in Kontakt!',
-          'video' => false,
-          'media' => 'images/agenturhaus.jpg',
+          'video' => true,
+          'media' => 'images/compresso_desktop.mp4',
+          'media_mobile' => 'images/compresso_mobile.mp4',
           'link' => 'https://compresso.ch',
           'link_target' => '_blank'
         )
@@ -123,7 +125,19 @@ require_once 'inc/mainmenu.php';
             <li>
               <div class="video-wrapper">
                 <video loop muted playsinline<?php echo $add_autoplay; ?> class="video-bg">
-                  <source src="<?php echo $slide['media']; ?>" type="video/mp4">
+                  <?php
+                  if( array_key_exists( 'media_mobile', $slide ) ) {
+                    $detect = new Mobile_Detect;
+                    if ( $detect->isMobile() ) {
+                      echo '<source src="' . $slide['media_mobile'] . '" type="video/mp4">';
+                    } else {
+                      echo '<source src="' . $slide['media'] . '" type="video/mp4">';
+                    }
+                    
+                  } else {
+                    echo '<source src="' . $slide['media'] . '" type="video/mp4">';
+                  }
+                  ?>
                 </video>
               </div>
             </li>
