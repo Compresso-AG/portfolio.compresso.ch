@@ -8,7 +8,7 @@ function render_hero( $category, $title, $video ) {
   </div>
   <!-- hero -->
   <div class="top_90 full-image hero me">
-      <div class="image overlays"></div>
+      <div class="image overlays no_overlay"></div>
       <div class="video-wrapper no_dark">
         <video autoplay loop muted class="video-bg">
           <source src="' . $video . '" type="video/mp4">
