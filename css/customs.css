@@ -35,6 +35,11 @@
   bottom: 120px;
 }
 
+header .logo {
+  position: absolute;
+  left: 0;
+}
+
 @media only screen and (min-width: 580px) {
   .showcase .swiper-slide {
     align-items: flex-end;
@@ -47,6 +52,10 @@
 
   .teammates .team figure figcaption .name > p{
     font-size: 18px;
+  }
+
+  header .logo {
+    position: static;
   }
 }
 
