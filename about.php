@@ -20,29 +20,29 @@ require_once 'inc/mainmenu.php';
 
   <!-- SERVICES -->
   <div class="container services top_120 box-animate">
-    <div class="row">
-      <div class="services-left col-xl-6 col-md-12">
+    <div class="row justify-content-center">
+      <div class="services-left col-12 col-lg-10">
         <span class="title">Was wir machen</span>
         <h3 class="text-white">Online zu sein ist heute das A und O. In der schnelllebigen digitalen Welt reicht es jedoch nicht, nur im Web oder auf dem Mobile präsent zu sein. Auffallen heisst die Devise – sei es mit einem einzigartigen Webauftritt, einer kreativen Digitalkampagne oder einem angesagten Social-Media-Kanal. Oder am besten: gleich alles zusammen.<br><br>Compresso bietet hierfür seit 1995 alles aus einer Hand. Von Beratung über Projektleitung bis hin zu Design oder Inhouse-Entwicklung – wir setzen Ihre Webprojekte über alle Schritte hinweg kompetent um.</h3>
       </div>
-      <div class="services-right col-xl-5 col-md-12 offset-xl-1">
-        <div class="row">
-          <div class="col-xl-6 col-md-6 service">
+      <div class="services-right top_45 col-12 col-lg-10">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-6 col-lg-3 service">
             <div class="text-center bottom_30"><i class="fal fa-copyright"></i></div>
             <h3 class="title">Branding Websites</h3>
             <p>Klassische Schaufensterwebsites</p>
           </div>
-          <div class="col-xl-6 col-md-6 service">
+          <div class="col-12 col-md-6 col-lg-3 service">
             <div class="text-center bottom_30"><i class="fal fa-code"></i></div>
             <h3 class="title">Funktionale Websites</h3>
             <p>Buchungstools, Reporting-Tools, eCommerce, Immobilien-Management, komplexe CMS und Schnittstellen-Einbindungen</p>
           </div>
-          <div class="col-xl-6 col-md-6 service">
+          <div class="col-12 col-md-6 col-lg-3 service">
             <div class="text-center bottom_30"><i class="fal fa-fire-alt"></i></div>
             <h3 class="title">Engagement Websites</h3>
             <p>Algorithmus, Lösungen, Gamification</p>
           </div>
-          <div class="col-xl-6 col-md-6 service">
+          <div class="col-12 col-md-6 col-lg-3 service">
             <div class="text-center bottom_30"><i class="fal fa-mail-bulk"></i></div>
             <h3 class="title">Newsletter</h3>
             <p>Planung und Versand Online-Mailings</p>
@@ -54,7 +54,7 @@ require_once 'inc/mainmenu.php';
 
 
   <!-- TEAMMATES -->
-  <div class="container teammates top_120 box-animate">
+  <div class="container teammates top_60 box-animate">
 
     <div class="block-title">
       <span class="title">Deine Ansprechspersonen</span>
