@@ -51,7 +51,7 @@ require_once 'inc/mainmenu.php';
           'title' => 'Ein hoch auf Gamification mit Valora',
           'description' => 'Wo treffen off- und online Kampagnen spielerisch aufeinander?',
           'video' => true,
-          'media' => 'images/testvideo.mp4',
+          'media' => 'images/valora.mp4',
           'link' => 'valora.php',
           'link_target' => '_self'
         ),

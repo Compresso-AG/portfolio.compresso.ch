@@ -6,7 +6,7 @@ $text = 'Valora gilt als einer der stärksten Convenience- und Food-Service-Anbi
 ?>
 <div class="data-scroll">
   <?php
-  render_hero( 'Online Game', 'Valore OK Goal', 'images/walim.mp4' );
+  render_hero( 'Online Game', 'Valore OK Goal', 'images/valora.mp4' );
   render_text( $text );
   render_next_project( 'Weisser Immobilien', 'wms.php' );
   ?>
