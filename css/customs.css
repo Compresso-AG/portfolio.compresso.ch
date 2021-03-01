@@ -23,6 +23,18 @@
   top: 90px;
 }
 
+.teammates .team figure figcaption .name {
+  bottom: 10px;
+}
+
+.teammates .team figure figcaption .name > p{
+  font-size: 16px;
+}
+
+.teammates .team figure figcaption .job {
+  bottom: 120px;
+}
+
 @media only screen and (min-width: 580px) {
   .showcase .swiper-slide {
     align-items: flex-end;
@@ -31,6 +43,10 @@
   .showcase .swiper-slide .slide-content,
   .slide-arrow {
     margin-bottom: 6%;
+  }
+
+  .teammates .team figure figcaption .name > p{
+    font-size: 18px;
   }
 }
 

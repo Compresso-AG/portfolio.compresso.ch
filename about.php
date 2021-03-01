@@ -69,14 +69,14 @@ require_once 'inc/mainmenu.php';
           'job' => 'Founder & CEO',
           'image' => 'fridolin2.jpg',
           'mail' => 'fridolin.stauffacher@compresso.ch',
-          'tel' => '+41434888621'
+          'tel' => '+41 43 488 86 21'
         ),
         array(
           'name' => 'Catherin Matthaei',
           'job' => 'Project Manager',
           'image' => 'catherin2.jpg',
           'mail' => 'catherin.matthaei@compresso.ch',
-          'tel' => '+41434888646'
+          'tel' => '+41 43 488 86 46'
         ),
       );
       foreach( $team_members as $team ) {
@@ -87,11 +87,11 @@ require_once 'inc/mainmenu.php';
             <div class="image" style="background-image: url('images/<?php echo $team['image']; ?>');"></div>
             <figcaption>
               <span class="number"></span>
-              <div class="social-links">
-                <a href="mailto:<?php echo $team['mail']; ?>" class="magnetize" data-dist="1" data-cursor-type="medium"> <i class="fas fa-envelope fa-rotate-270 fa-lg"></i> </a>
-                <a href="tel:<?php echo $team['tel']; ?>" class="magnetize" data-dist="1" data-cursor-type="medium"> <i class="fas fa-phone fa-rotate-270 fa-lg"></i> </a>
+              <div class="name">
+                <h3><?php echo $team['name']; ?></h3>
+                <p class="mail mb-0"><i class="fal fa-envelope text-white mr-1 d-none d-lg-inline-block"></i><a class="text-white" href="mailto:<?php echo $team['mail']; ?>"><?php echo $team['mail']; ?></a></p>
+                <p class="tel text-white"><i class="fal fa-phone mr-1 d-none d-lg-inline-block"></i><?php echo $team['tel']; ?></p>
               </div>
-              <h3 class="name"><?php echo $team['name']; ?></h3>
               <span class="job"><?php echo $team['job']; ?></span>
             </figcaption>
           </figure>
