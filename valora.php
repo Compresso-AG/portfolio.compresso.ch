@@ -2,7 +2,7 @@
 include_once 'inc/functions.php';
 include_once 'inc/header.php';
 require_once 'inc/mainmenu.php';
-$text = 'Valora gilt als einer der stärksten Convenience- und Food-Service-Anbieter der Schweiz mit einer Multiformat-Strategie (u.A. k kiosk, avec, Press & Books). Als Teil des Loyalty-Programms werden regelmässig nationale Loskampagnen lanciert.<br><br>Dabei ist Compresso für die technische Umsetzung eines auf die Kampagne abgestimmten Webauftritts zuständig. Die an den Verkaufsstellen abgegebenen Lose beinhalten attraktive Sofortpreise und können zusätzlich auf der Engagement-Website für den Hauptpreis eingelöst werden.<br><br>Dadurch erhalten Konsumenten wie auch Industriepartner eine attraktive Interaktionsmöglichkeit, die direkt ans Valora-eigene CRM angeschlossen ist.';
+$text = 'Valora gilt als einer der stärksten Convenience- und Food-Service-Anbieter der Schweiz mit einer Multiformat-Strategie (u.A. k kiosk, avec, Press & Books). Um das EM-Feeling an den POS und zu den Kunden zu bringen, konzipiert Compresso für die Valora Eigenmarke ok.- ein AR-Game (Augmented Reality).<br><br>Beim Kauf eines Energy Drinks erhalten Kunden einen QR-Code, mit dem sie das interaktive AR-Spiel via ok-goal.ch per Smartphone zum Leben erwecken können. Mit der Handykamera wird eine virtuelle Umgebung aktiviert, wo ein Tor und Torhüter in den realen Raum eingebettet werden und zum Toreschiessen animieren.<br><br>Als Gewinn winken attraktive Sofortpreise und sowie eine Reise an das EM-Finale als Hauptgewinn.';
 ?>
 <div class="data-scroll">
   <?php
