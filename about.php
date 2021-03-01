@@ -67,14 +67,14 @@ require_once 'inc/mainmenu.php';
         array(
           'name' => 'Fridolin Stauffacher',
           'job' => 'Founder & CEO',
-          'image' => 'fridolin.jpg',
+          'image' => 'fridolin2.jpg',
           'mail' => 'fridolin.stauffacher@compresso.ch',
           'tel' => '+41434888621'
         ),
         array(
           'name' => 'Catherin Matthaei',
           'job' => 'Project Manager',
-          'image' => 'catherin.jpg',
+          'image' => 'catherin2.jpg',
           'mail' => 'catherin.matthaei@compresso.ch',
           'tel' => '+41434888646'
         ),
