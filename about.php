@@ -78,6 +78,13 @@ require_once 'inc/mainmenu.php';
           'mail' => 'catherin.matthaei@compresso.ch',
           'tel' => '+41 43 488 86 46'
         ),
+        array(
+          'name' => 'Nina Bärtsch',
+          'job' => 'Project Manager',
+          'image' => 'nina.jpg',
+          'mail' => 'nina.baertsch@compresso.ch',
+          'tel' => '+41 43 488 86 45'
+        ),
       );
       foreach( $team_members as $team ) {
         ?>
