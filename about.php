@@ -99,6 +99,13 @@ require_once 'inc/mainmenu.php';
           'mail' => 'luisa.weidmann@compresso.ch',
           'tel' => '+41 43 488 86 47'
         ),
+        array(
+          'name' => 'Alexandra Nadtochiy',
+          'job' => 'Project Manager',
+          'image' => 'sascha.jpg',
+          'mail' => 'alexandra.nadtochiy@compresso.ch',
+          'tel' => '+41 43 488 86 41'
+        )
       );
       foreach( $team_members as $team ) {
         ?>
