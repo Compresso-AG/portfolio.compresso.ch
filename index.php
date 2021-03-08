@@ -68,8 +68,8 @@ require_once 'inc/mainmenu.php';
           'category' => 'Newsletter',
           'title' => 'The news online dank Newsletter',
           'description' => 'Warum wecken spannende Inhalte mit durchdachter Aufbereitung Interesse?',
-          'video' => false,
-          'media' => 'images/project_overview.jpg',
+          'video' => true,
+          'media' => 'images/newsletter.mp4',
           'link' => 'newsletter.php',
           'link_target' => '_self'
         ),

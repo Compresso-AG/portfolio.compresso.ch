@@ -6,7 +6,7 @@ $text = 'Mit unserem Compresso-eigenen Newsletter – dem Lieblingsbrief – sch
 ?>
 <div class="data-scroll">
   <?php
-  render_hero( 'Newsletter', 'Compresso Lieblingsbrief', 'images/walim.mp4' );
+  render_hero( 'Newsletter', 'Compresso Lieblingsbrief', 'images/newsletter.mp4' );
   render_text( $text );
   render_external_project_link( 'Zur Compresso Agenturwebseite', 'https://compresso.ch', 'Mehr Informationen zu deiner Lieblingsagentur?' );
   ?>
