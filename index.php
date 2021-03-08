@@ -60,7 +60,7 @@ require_once 'inc/mainmenu.php';
           'title' => 'Computer als Sprachrohr für Weisser Immobilien',
           'description' => 'Wie erschaffen wir einen ästhetischen und informativen Webauftritt?',
           'video' => true,
-          'media' => 'images/testvideo.mp4',
+          'media' => 'images/wms.mp4',
           'link' => 'wms.php',
           'link_target' => '_self'
         ),

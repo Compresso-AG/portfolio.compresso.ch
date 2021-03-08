@@ -6,7 +6,7 @@ $text = 'Weisser Immobilien ist ein unabhängiges, inhabergeführtes Immobilienu
 ?>
 <div class="data-scroll">
   <?php
-  render_hero( 'Webseite', 'Weisser Immobilien', 'images/walim.mp4' );
+  render_hero( 'Webseite', 'Weisser Immobilien', 'images/wms.mp4' );
   render_text( $text );
   render_next_project( 'Compresso Lieblingsbrief', 'newsletter.php' );
   ?>
