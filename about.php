@@ -12,12 +12,6 @@ require_once 'inc/mainmenu.php';
     </div>
   </div>
 
-  <!-- IMAGE WIDGET -->
-  <div class="about-image type-one top_120 box-animate image-animate">
-    <div class="image" style="background-image:url('images/compresso.jpg'); margin-top: 0px; margin-bottom: 0px;">
-    </div>
-  </div>
-
   <!-- SERVICES -->
   <div class="container services top_120 box-animate">
     <div class="row justify-content-center">
