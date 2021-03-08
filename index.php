@@ -41,8 +41,8 @@ require_once 'inc/mainmenu.php';
           'category' => 'CRM',
           'title' => 'Japan-Reise mit JT International',
           'description' => 'Was braucht es, um das Zahlenchaos übersichtlich zu digitalisieren?',
-          'video' => false,
-          'media' => 'images/project_overview.jpg',
+          'video' => true,
+          'media' => 'images/jti.mp4',
           'link' => 'jti.php',
           'link_target' => '_self'
         ),

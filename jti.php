@@ -6,7 +6,7 @@ $text = 'Japan Tobacco International (JTI) ist weltweit der drittgrösste Tabakh
 ?>
 <div class="data-scroll">
   <?php
-  render_hero( 'Customer-Relationship-Management', 'JTI Reporting Tool', 'images/walim.mp4' );
+  render_hero( 'Customer-Relationship-Management', 'JTI Reporting Tool', 'images/jti.mp4' );
   render_text( $text );
   render_next_project( 'Gamification mit Valora', 'valora.php' );
   ?>
