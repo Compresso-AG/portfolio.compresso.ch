@@ -51,54 +51,19 @@ require_once 'inc/mainmenu.php';
   <div class="container teammates top_60 box-animate">
 
     <div class="block-title">
-      <span class="title">Deine Ansprechspersonen</span>
-      <h3 class="subtitle">Lerne uns kennen.</h3>
+      <span class="title">Deine Ansprechsperson</span>
+      <h3 class="subtitle">für dein nächstes Webprojekt.</h3>
     </div>
 
     <div class="row">
       <?php
       $team_members = array(
         array(
-          'name' => 'Fridolin Stauffacher',
-          'job' => 'Founder & CEO',
-          'image' => 'fridolin2.jpg',
-          'mail' => 'fridolin.stauffacher@compresso.ch',
-          'tel' => '+41 43 488 86 21'
-        ),
-        array(
           'name' => 'Catherin Matthaei',
           'job' => 'Project Manager',
           'image' => 'catherin2.jpg',
           'mail' => 'catherin.matthaei@compresso.ch',
           'tel' => '+41 43 488 86 46'
-        ),
-        array(
-          'name' => 'Nina Bärtsch',
-          'job' => 'Project Manager',
-          'image' => 'nina.jpg',
-          'mail' => 'nina.baertsch@compresso.ch',
-          'tel' => '+41 43 488 86 45'
-        ),
-        array(
-          'name' => 'Daniela Rizzuto',
-          'job' => 'Project Manager',
-          'image' => 'daniela.jpg',
-          'mail' => 'daniela.rizzuto@compresso.ch',
-          'tel' => '+41 43 488 86 19'
-        ),
-        array(
-          'name' => 'Luisa Weidmann',
-          'job' => 'Project Manager',
-          'image' => 'luisa.jpg',
-          'mail' => 'luisa.weidmann@compresso.ch',
-          'tel' => '+41 43 488 86 47'
-        ),
-        array(
-          'name' => 'Alexandra Nadtochiy',
-          'job' => 'Project Manager',
-          'image' => 'sascha.jpg',
-          'mail' => 'alexandra.nadtochiy@compresso.ch',
-          'tel' => '+41 43 488 86 41'
         )
       );
       foreach( $team_members as $team ) {
