@@ -251,6 +251,12 @@ function letter_slider() {
 		$('.bullets ul li').on('click', function () {
 			swiper.slideTo($(this).index());
 		});
+    $('.scroll_navigation_item--up i').on('click', function() {
+      swiper.slidePrev();
+    });
+    $('.scroll_navigation_item--down i').on('click', function() {
+      swiper.slideNext();
+    });
 	}else{
 		$('html').removeClass('showcase');
   }

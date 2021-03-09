@@ -112,6 +112,19 @@ require_once 'inc/mainmenu.php';
       <ul> </ul>
     </div>
 
+    <div class="scroll_navigation d-none d-lg-block">
+      <div class="scroll_navigation_item scroll_navigation_item--up " role="button">
+        <span data-cursor-type="large">
+          <i class="fas fa-chevron-up text-white magnetize"></i>
+        </span>
+      </div>
+      <div class="scroll_navigation_item scroll_navigation_item--down" role="button">
+        <span data-cursor-type="large">  
+          <i class="fas fa-chevron-down text-white magnetize"></i>
+        </span>
+      </div>
+    </div>
+
     <!-- SLIDE IMAGES -->
     <div class="slider-images overlays">
       <ul>

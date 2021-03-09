@@ -48,6 +48,26 @@ header .logo {
   font-size: 180px;
 }
 
+.scroll_navigation_item {
+  position: fixed;
+  left: 100px;
+  z-index: 99999;
+}
+
+.scroll_navigation_item.scroll_navigation_item--up {
+  top: calc(50% - 150px);
+  transform: translateY(50%);
+}
+
+.scroll_navigation_item.scroll_navigation_item--down {
+  bottom: calc(50% - 150px);
+  transform: translateY(-50%);
+}
+
+.scroll_navigation_item i {
+  font-size: 45px;
+}
+
 @media only screen and (min-width: 580px) {
   .showcase .swiper-slide {
     align-items: flex-end;
