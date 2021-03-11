@@ -48,7 +48,7 @@ require_once 'inc/mainmenu.php';
         ),
         array(
           'category' => 'Online Game',
-          'title' => 'Ein hoch auf Gamification mit Valora',
+          'title' => 'Ein Hoch auf Gamification mit Valora',
           'description' => 'Wo treffen off- und online Kampagnen spielerisch aufeinander?',
           'video' => true,
           'media' => 'images/valora.mp4',
@@ -108,11 +108,11 @@ require_once 'inc/mainmenu.php';
       ?>
     </div>
 
-    <div class="bullets">
+    <!-- <div class="bullets">
       <ul> </ul>
-    </div>
+    </div> -->
 
-    <div class="scroll_navigation d-none d-lg-block">
+    <div class="scroll_navigation">
       <div class="scroll_navigation_item scroll_navigation_item--up " role="button">
         <span data-cursor-type="large">
           <i class="fas fa-chevron-up text-white magnetize"></i>

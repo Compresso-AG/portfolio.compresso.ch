@@ -50,7 +50,9 @@ header .logo {
 
 .scroll_navigation_item {
   position: fixed;
-  left: 100px;
+  left: calc(18.772563% - 200px);
+  width: 400px;
+  text-align: center;
   z-index: 99999;
 }
 
