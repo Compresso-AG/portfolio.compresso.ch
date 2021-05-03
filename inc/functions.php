@@ -47,6 +47,7 @@ function render_next_project( $project, $link ) {
           <div data-cursor-type="medium" class="nav-title">Next project</div>
           <div data-cursor-type="medium" class="next-title">' . $project . '</div>
         </a>
+        <a data-type="ajax-load" href="/index.php" class="text-white"><i data-cursor-type="medium" class="fas fa-home fa-2x"></i></a>
       </div>
     </div>
   ';
