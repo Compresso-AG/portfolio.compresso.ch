@@ -13,7 +13,7 @@ require_once 'inc/mainmenu.php';
         array(
           'category' => 'Webseite',
           'title' => 'Personal Trainer ade, dank Sportaktiv',
-          'description' => 'Wie bringt man verschiedene Sportarten und Interessengruppe unter einen Hut?',
+          'description' => 'Wie bringt man verschiedene Sportarten und Interessengruppen unter einen Hut?',
           'video' => true,
           'media' => 'images/sportaktiv.mp4',
           'link' => 'sportaktiv.php',
