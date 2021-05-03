@@ -113,14 +113,14 @@ require_once 'inc/mainmenu.php';
     </div> -->
 
     <div class="scroll_navigation">
-      <div class="scroll_navigation_item scroll_navigation_item--up " role="button">
-        <span data-cursor-type="large">
-          <i class="fas fa-chevron-up text-white magnetize"></i>
+      <div class="scroll_navigation_item scroll_navigation_item--up" role="button">
+        <span>
+          <i data-dist="1" data-cursor-type="medium" class="fas fa-chevron-up text-white magnetize"></i>
         </span>
       </div>
       <div class="scroll_navigation_item scroll_navigation_item--down" role="button">
-        <span data-cursor-type="large">  
-          <i class="fas fa-chevron-down text-white magnetize"></i>
+        <span>  
+          <i data-dist="1" data-cursor-type="medium" class="fas fa-chevron-down text-white magnetize"></i>
         </span>
       </div>
     </div>
