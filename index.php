@@ -84,6 +84,7 @@ require_once 'inc/mainmenu.php';
           'link_target' => '_blank'
         )
       );
+      $counter = 1;
       foreach( $slides as $slide ) {
         if( $slide['link_target'] === '_self' ) {
           $data_type = 'ajax-load';
@@ -94,6 +95,11 @@ require_once 'inc/mainmenu.php';
         <!-- slide -->
         <div class="swiper-slide">
           <div class="slide-content">
+            <?php
+            if( $counter == 1 ) {
+              echo '<h1 class="title comp_site_title">Portfolio Web Experience</h1>';
+            }
+            ?>
             <span class="category"><?php echo $slide['category']; ?></span>
             <h2 class="title"><?php echo $slide['title']; ?></h2>
             <p><?php echo $slide['description']; ?></p>
@@ -104,6 +110,7 @@ require_once 'inc/mainmenu.php';
           </a>
         </div>
         <?php
+        $counter++;
       }
       ?>
     </div>

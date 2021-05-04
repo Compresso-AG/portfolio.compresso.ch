@@ -70,6 +70,11 @@ header .logo {
   font-size: 45px;
 }
 
+.comp_site_title {
+  position: relative;
+  bottom: 50px;
+}
+
 @media only screen and (min-width: 580px) {
   .showcase .swiper-slide {
     align-items: flex-end;
@@ -86,6 +91,10 @@ header .logo {
 
   header .logo {
     position: static;
+  }
+
+  .comp_site_title {
+    bottom: 250px;
   }
 }
 
