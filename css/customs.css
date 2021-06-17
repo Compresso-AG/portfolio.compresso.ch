@@ -75,6 +75,18 @@ header .logo {
   bottom: 50px;
 }
 
+.storer {
+  position: fixed;
+  z-index: 1202;
+  right: 6%;
+  top: 15%;
+  transform: rotate(12deg);
+}
+
+.storer img {
+  width: 120px;
+}
+
 @media only screen and (min-width: 580px) {
   .showcase .swiper-slide {
     align-items: flex-end;
@@ -95,6 +107,10 @@ header .logo {
 
   .comp_site_title {
     bottom: 250px;
+  }
+
+  .storer img {
+    width: 250px;
   }
 }
 

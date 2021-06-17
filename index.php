@@ -3,6 +3,8 @@ require_once 'vendor/autoload.php';
 require_once 'inc/header.php';
 require_once 'inc/mainmenu.php';
 ?>
+<!-- STÖRER -->
+<a class="storer magnetize" data-cursor-type="large" href="https://compresso.ch/kostenlose-webanalyse/" target="_blank"><img src="images/storer.svg" loading="lazy"></a>
 <!-- SHOWCASE -->
 <div id="letter-slider">
   <div class="swiper-container">
