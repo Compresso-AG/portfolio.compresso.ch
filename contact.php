@@ -71,6 +71,8 @@ require_once 'inc/mainmenu.php';
     <div class="compresso_map box-animate" data-zoom="13">
       <div class="marker" data-lat="47.339440" data-lng="8.568040"></div>
     </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrcoRjqZDNeX5FVInrifLtinf2TD9ivQA"></script>
+    <script src="js/compresso_maps.min.js?ver=1"></script>
     <script>
       jQuery(document).ready(function(){
         jQuery('.compresso_map').each(function(){
