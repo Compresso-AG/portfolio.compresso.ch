@@ -21,13 +21,22 @@ require_once 'inc/mainmenu.php';
           'link' => 'sportaktiv.php',
           'link_target' => '_self',
         ),
-        array(
+        /* array(
           'category' => 'Webseite',
           'title' => 'Rundum stimmig mit LC1',
           'description' => 'Warum harmonieren alte Klassiker und innovative Neulinge im Web besonders gut?',
           'video' => true,
           'media' => 'images/lc1.mp4',
           'link' => 'lc1.php',
+          'link_target' => '_self'
+        ), */
+        array(
+          'category' => 'Webseite',
+          'title' => 'Mehr Zeit geniessen dank Ornitag',
+          'description' => 'Wie verbindet man zahlenlastige Finanzfragen mit modernem Design?',
+          'video' => true,
+          'media' => 'images/Ornitag.mp4',
+          'link' => 'ornitag.php',
           'link_target' => '_self'
         ),
         array(
