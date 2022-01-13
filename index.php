@@ -4,7 +4,7 @@ require_once 'inc/header.php';
 require_once 'inc/mainmenu.php';
 ?>
 <!-- STÖRER -->
-<a class="storer magnetize" data-cursor-type="large" href="https://compresso.ch/kostenlose-webanalyse/" target="_blank"><img src="images/storer.svg" loading="lazy"></a>
+<a class="storer magnetize" data-cursor-type="large" href="https://compresso.ch/kmu-spezialpaket-fur-ihre-neue-website/" target="_blank"><img src="images/storer2.svg" loading="lazy"></a>
 <!-- SHOWCASE -->
 <div id="letter-slider">
   <div class="swiper-container">
