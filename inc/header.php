@@ -6,6 +6,7 @@
   <meta charset="UTF-8">
   <meta name="description" content="Portfolio Compresso Digital">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#000000">
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="css/reset.min.css" />
