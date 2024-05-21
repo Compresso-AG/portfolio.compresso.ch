@@ -41,6 +41,7 @@ To get a local copy of the repository up and running, follow these steps.
 Ensure you have the following installed on your local machine:
 
 - Git
+- PHP
 
 ### Installation
 
